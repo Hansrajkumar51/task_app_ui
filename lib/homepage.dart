@@ -448,7 +448,7 @@ Widget _Bottom_Buttons() {
                 'Premium',
                 style: TextStyle(
                     fontSize: 17,
-                    color: Color.fromARGB(255, 121, 37, 246),
+                    color: Color(0xff32357C),
                     fontWeight: FontWeight.bold),
               ),
             ],
@@ -466,9 +466,9 @@ Widget _Bottom_Buttons() {
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
-                color: Colors.blue,
+                color: Color(0xff32357C),
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Get Detail',
                   style: TextStyle(
